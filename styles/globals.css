@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+
+body{
+  background-color: #fafafa;
+}
+.rccs{
+  margin: 0;
+}
+.layout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card{
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #dadada;
+  background: #1581ed;
+  color: #fafafa;
+  font-family: 'Mingzat', sans-serif;
+}
+.form-custom-control{
+  background: #126cc7;
+  border: #126cc7;
+  color: #dae8f5 !important;
+}
+.form-custom-control:focus{
+  background: #126cc7;
+  border: #126cc7;
+  color: #dae8f5;
+}
+.form-custom-control::placeholder{
+  color: #dae8f5;
+}
+.btn-custom-payment{
+  background: #fafafa;
+  font-family: 'Mingzat', sans-serif !important;
+  color: #126cc7;
+  font-weight: 600;
+  width: 100%;
+}
+.btn-custom-cancel{
+  background: #1581ed;
+  font-family: 'Mingzat', sans-serif !important;
+  color: #fafafa;
+  font-weight: 600;
+  border: 1px solid #fafafa;
+  width: 100%;
+}
+.btn-custom-cancel:hover{
+  background: #fafafa;
+  color: #126cc7;
+  font-weight: 600;
+  width: 100%;
+}
